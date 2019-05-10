@@ -1,7 +1,7 @@
 # Emotion-Analysis-Using-Speech
 
 
-Introduction 
+# Introduction 
  
  
 When you are listening to music and the music player automatically plays songs matching to your emotions. This is one of the many use cases of Emotion detection using speech. 
@@ -14,10 +14,10 @@ For the second one, we have used GoogleAPI for speech recognition and linear SVC
  
  
  
-Problem Statement 
+# Problem Statement 
  
  
-To create a deep learning model to analyse the emotion of a person through speech which is applicable in various ecommerce and IT application. 
+"To create a deep learning model to analyse the emotion of a person through speech which is applicable in various ecommerce and IT application". 
  
  
  
@@ -37,7 +37,7 @@ So the vast area of practical application and importance in the real world, made
  
  
 
-Project Design 
+# Project Design 
  
  
     • Collected labelled data. 
@@ -62,7 +62,7 @@ Project Design
 
  
  
-Functionality 
+# Functionality 
  
  
 Emotion analysis can be used in various fields. Vault unlocking using voice can be made more accurate using emotion detection, virtual assistants can be made more user friendly-like playing music according to users emotion, reading assistant can read the text emotionally, ecommerce site can use emotion detection for recommendation and suggestions. 
@@ -70,12 +70,10 @@ Emotion analysis can be used in various fields. Vault unlocking using voice can 
  
  
  
- 
- 
 
  
  
-Implementation Details 
+# Implementation Details 
  
  
 Basically, we have used two different approaches, first one is directly analysing the audio and second one is by converting the speech to text and then analysing the text. 
@@ -85,60 +83,32 @@ For the first approach also we have designed two different models CNN and LSTM. 
 For the second approach we have first converted the speech into text by using available GoogleAPI which uses deep learning models. For analysing the emotion of the text we have used Linear SVC. 
  
 The code was written in Python3.6 and for maintaining our project we used Jupyter Notebook. It was executed on NVIDIA DGX (8X Tesla V100) Supercomputer Servers.  
- 
- 
- 
- 
 
- 
- 
- 
 
- 
- 
- 
- 
- 
- 
-Project Development Time Schedule 
- 
- 
- 
 
-7th - 10th Dec 
-11th - 13th Dec
-13th - 24th Dec
-22th - 25th Dec
-25th - 28th Dec 
-Literature Survey
+# Collection
 
 
 
 
 
-Datasets Collection
+# Coding
 
 
 
 
 
-Coding
+# Review
 
 
 
 
 
-Review
+# Documentation
 
 
 
-
-
-Documentation
-
-
-
-Learning and Reflections 
+# Learning and Reflections 
  
  
 In the project we have implemented some important deep learning models like CNN and LSTM. We used Librosa for feature extraction of audio and GoogleAPI for converting speech to text. While doing this project we came to know how to create CNN and LSTM models and how to train and test the models. We learnt how to improve the accuracy of the model by adjusting the hyper parameters.  
@@ -146,7 +116,7 @@ In the project we have implemented some important deep learning models like CNN 
  
 
  
-Conclusion 
+# Conclusion 
  
 This model can be used by various apps, online shopping websites and so on to know about the user’s emotions. Further improvements can be made to the model so that it can perform well in real time. For improving the accuracy of the model, we can increase the size of the dataset. The classifier can be embedded in a software or an app so that it can work in real time. Moreover, we look forward to come up with more industrial applications of this model. 
  
@@ -154,30 +124,10 @@ This model can be used by various apps, online shopping websites and so on to kn
  
  
 
- 
- 
-
-Limitations and Future Enhancements 
+# Limitations and Future Enhancements 
  
 Due to less availability of datasets our accuracy was not as expected. So, in further work we can increase the number of datasets so as to get higher accuracy.  
  
 As we have used two methods, one by directly analysing the speech and another by changing the speech into text. In this project we have displayed the results separately. We can combine the results from two method to get more accurate results. For combining, we can give weightage for both methods higher for the first one and lower for the second one. 
  
- 
 
- 
- 
-References 
- 
- 
-    1. https://zenodo.org/record/1188976/?f=3#.XCRnEFUzbZs 
-    2. http://adventuresinmachinelearning.com/keras-lstm-tutorial/ 
-    3. https://www.udemy.com/nlp-natural-language-processing-with-python/    
-    4. https://www.kaggle.com/c/sa-emotions 
-    5. https://www.sciencedirect.com/science/article/pii/S1877050915021432 
-    6. https://ieeexplore.ieee.org/document/7975169 
-
-
-
-
-YouTube Video: https://www.youtube.com/watch?v=h8RBi6tiK0c&feature=youtu.be
